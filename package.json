@@ -1,0 +1,27 @@
+{
+  "name": "bitcoin-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bitcoin explorer & tracker: look up any address, transaction or block and get balances, charts, totals and analytics.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.0",
+    "next": "~14.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
